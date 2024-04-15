@@ -7,6 +7,7 @@ public class SampleProgram1 {
 	public static void main(String[] args) {
 		
 		try {
+			System.out.println("Hello World");
 			int i = Integer.parseInt("10");
 			Date d = new SimpleDateFormat("dd-MM-yyyy").parse("31-01-2021");
 			System.out.println("Integer: " + i);
